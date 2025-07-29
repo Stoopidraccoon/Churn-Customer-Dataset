@@ -13,20 +13,20 @@ The goal of this project is to build a machine learning model that can accuratel
 #  Key Features
 **Column Name**         **Description** 
 
-RowNumber           Unique row ID |
-CustomerId          Unique customer ID |
-Surname             Customer’s surname |
-CreditScore         Customer's credit score |
-Geography           Country (France, Germany, Spain) |
-Gender              Male / Female |
-Age                 Customer’s age |
-Tenure              Number of years with the bank |
-Balance             Account balance |
-NumOfProducts       Number of bank products used |
-HasCrCard           Whether customer has credit card |
-IsActiveMember      Active status in bank |
-EstimatedSalary     Salary of the customer |
-Exited              Target variable (1 = Churn, 0 = Not churn) |
+RowNumber           Unique row ID 
+CustomerId          Unique customer ID 
+Surname             Customer’s surname 
+CreditScore         Customer's credit score 
+Geography           Country (France, Germany, Spain) 
+Gender              Male / Female 
+Age                 Customer’s age 
+Tenure              Number of years with the bank 
+Balance             Account balance 
+NumOfProducts       Number of bank products used 
+HasCrCard           Whether customer has credit card 
+IsActiveMember      Active status in bank 
+EstimatedSalary     Salary of the customer 
+Exited              Target variable (1 = Churn, 0 = Not churn) 
 
 
 
@@ -62,6 +62,7 @@ Accuracy: 80.05
 **Confusion Matrix**
 [[1573   34]
  [ 365   28]]
+ 
 **Top Influential Features:**
   - Age
   - Balance
